@@ -11,7 +11,7 @@ import br.univel.annotations.Coluna;
 import br.univel.annotations.Tabela;
 import br.univel.annotations.*;
 
-public abstract class Montando extends SQLGen {
+public class Montando extends SQLGen {
 		
 		public Montando () {
 			String strCreateTable = getCreateTable(Cliente.class);
